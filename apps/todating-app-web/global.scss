@@ -1,0 +1,21 @@
+
+:root {
+  --primary: #000000;
+
+  --tablet-width: 768px;
+  --desktop-width: 1440px;
+}
+
+
+html {
+  box-sizing: border-box;
+  height: calc(var(--vh, 1vh) * 100);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
